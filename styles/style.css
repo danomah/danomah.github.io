@@ -1,3 +1,48 @@
-#title_page_header {
-	font-family: 'Righteous', cursive;
+
+/******************************************
+				NAVIGATION
+******************************************/
+
+nav ul li {
+	display: inline-block;
+	float: right;
+	list-style-type: none;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+	padding: 15px 30px;
 }
+
+ul a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul a:hover, ul a:focus {
+	color: gray;
+}
+
+/******************************************
+				INDEX.HTML STYLES
+******************************************/
+
+#index_container{
+	font-family: 'Comfortaa', cursive;
+	padding: 200px 0 0 100px;
+}
+
+#index_header {
+	font-size: 7em;
+	font-family: 'Rubik Mono One', cursive;
+}
+
+.index_call_to_action {
+	font-size: 2em;
+}
+
+#l1 {color: #8A2BE2;}
+#l2 {color: red;}
+#l3 {color: #FFDD00;}
+#l4 {color: green;}
+#l5 {color: blue;}
+#l6 {color: purple;}
+#l7 {color: gray;}
