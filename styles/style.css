@@ -3,22 +3,25 @@
 				NAVIGATION
 ******************************************/
 
-nav ul li {
+nav button {
 	display: inline-block;
+	position: relative;
 	float: right;
 	list-style-type: none;
 	font-family: 'Comfortaa', cursive;
 	font-size: 2em;
 	padding: 15px 30px;
+	margin-right: 14px;
+	border-radius: 7px;
 }
 
-ul a {
+nav button:hover, nav button:focus{
+	top: 10px;
+}
+
+a {
 	text-decoration: none;
 	color: #000;
-}
-
-ul a:hover, ul a:focus {
-	color: gray;
 }
 
 /******************************************
