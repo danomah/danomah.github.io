@@ -33,13 +33,14 @@ ul a:hover, ul a:focus {
 #index_header {
 	font-size: 7em;
 	font-family: 'Rubik Mono One', cursive;
+	text-shadow: 2px 2px #ccc;
 }
 
 .index_call_to_action {
 	font-size: 2em;
 }
 
-#l1, #l6 {color: #93B5C6;}
+#l1, #l6 {color: #93B5C6; }
 #l2, #l7 {color: #DDEDAA;}
 #l3 {color: #F0CF65;}
 #l4 {color: #D7816A;}
