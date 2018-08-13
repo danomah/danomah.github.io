@@ -39,10 +39,9 @@ ul a:hover, ul a:focus {
 	font-size: 2em;
 }
 
-#l1 {color: #8A2BE2;}
-#l2 {color: red;}
-#l3 {color: #FFDD00;}
-#l4 {color: green;}
-#l5 {color: blue;}
-#l6 {color: purple;}
-#l7 {color: gray;}
+#l1, #l6 {color: #93B5C6;}
+#l2, #l7 {color: #DDEDAA;}
+#l3 {color: #F0CF65;}
+#l4 {color: #D7816A;}
+#l5 {color: #BD4F6C;}
+
