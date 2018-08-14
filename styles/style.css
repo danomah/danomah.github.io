@@ -9,26 +9,32 @@ nav {
 
 nav button {
 	display: inline-block;
-	position: relative;
+	width: 150px;
 	float: left;
 	list-style-type: none;
 	font-family: 'Comfortaa', cursive;
 	font-size: 2em;
-	padding: 15px 30px;
+	padding: 15px;
 	margin-top: 20px;
 	margin-right: 24.5px;
 	border-radius: 7px;
 	background-color: #fff;
+
 }
 
-nav button:hover, nav button:focus{
-	top: 10px;
-}
-
-a {
+nav a {
 	text-decoration: none;
 	color: #000;
 }
+nav a button:hover, nav a button:focus{
+	background-color: #93B5C6;
+	color: #fff;
+}
+
+
+
+
+
 
 /******************************************
 				INDEX.HTML STYLES
