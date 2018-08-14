@@ -3,21 +3,31 @@
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Rubik+Mono+One" rel="stylesheet">
 		<link rel="stylesheet" href="styles/style.css">
+		<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>	
+		
 	</head>
 
 	<body>
-		<nav>
-			
-				<button><a href="#">How</a></button>
-				<button><a href="#">Where</a></button>
-				<button><a href="#">What</a></button>
-				<button><a href="#">Who</a></button>
-			
-		</nav>
+		
 		<div id="index_container">
 		<h1 id="index_header"><span id="l1" class="animated bounce">D</span><span id="l2">A</span><span id="l3" class="animated bounce">N</span><span id="l4">O</span><span id="l5">M</span><span id="l6">A</span><span id="l7">H</span></h1>
 		<p class="index_call_to_action">UI / UX Designer | Web Accessibility Pro</p>
 		<p class="index_call_to_action">Please feel free to push my buttons</p>
+		<nav>
+			<button id="who"><a href="#">Who</a></button>
+			<button id="what"><a href="#">What</a></button>
+			<button id="where"><a href="#">Where</a></button>
+			<button id="how"><a href="#">How</a></button>
+		</nav>
 	</div>
+		<script>
+			$(function(){
+				$( "#who" ).hide().delay(1000).fadeIn( 800 );
+				$( "#what" ).hide().delay(1500).fadeIn( 800 );
+				$( "#where" ).hide().delay(2000).fadeIn( 800 );
+				$( "#how" ).hide().delay(2500).fadeIn( 800 );
+			});
+		</script>
 	</body>
 </html>
