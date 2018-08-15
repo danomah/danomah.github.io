@@ -86,26 +86,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #l4 {color: #b44d30;}
 #l5 {color: #BD4F6C;}
 
-/******************************************
-				WHO.HTML MEDIA QUERIES
-******************************************/
-
-	@media only screen and (max-width: 800px) {
-    body {
-        background-color: lightblue;
-    }
 	
-	
-}
 
-@media only screen and (max-width: 450px) {
-    body {
-        background-color: grey;
-    }
-
-    #index_header {
-    	font-size: 1.2em;
-    }
+    
 
 
 

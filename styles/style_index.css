@@ -85,13 +85,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 ******************************************/
 
 	@media only screen and (max-width: 991px) {
-    body {
-        background-color: lightblue;
-    }
+    
 	
 	#index_header {
 		font-size: 6em;
-		text-align: center;
+		
 	}
 	
 	.index_call_to_action {
@@ -105,9 +103,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: lightgreen;
-    }
+    
+    #index_container{
+	padding-top: 50px;
+}
 	
 	#index_header {
 		font-size: 5em;
@@ -134,9 +133,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: pink;
-    }
+    
 	
 	#index_header {
 		font-size: 3.8em;
@@ -161,10 +158,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 @media only screen and (max-width: 450px) {
-    body {
-        background-color: grey;
-    }
+    
 
     #index_header {
-    	font-size: 1.2em;
+    	font-size: 3em;
+    	text-shadow: 1px 1px #ccc;
+    	
+
     }
