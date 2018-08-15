@@ -1,11 +1,18 @@
+/******************************************
+* 	Using hexnaw.com to check color #a11y
+* 	Using wave.webaim.org to fix color #a11y
+	and layout issues
+*	https://achecker.ca/checker/index.php for 
+	AAA compliance
+******************************************/
+
+
 
 /******************************************
 				NAVIGATION
 ******************************************/
 
-nav {
-	margin-top: 90px;
-}
+
 
 nav button {
 	display: inline-block;
@@ -27,7 +34,7 @@ nav a {
 	color: #000;
 }
 nav a button:hover, nav a button:focus{
-	background-color: #93B5C6;
+	background-color: #4d7b92;
 	color: #fff;
 }
 
@@ -62,4 +69,20 @@ nav a button:hover, nav a button:focus{
 #l3 {color: #ab8711;}
 #l4 {color: #b44d30;}
 #l5 {color: #BD4F6C;}
+
+
+
+
+/******************************************
+				WHO.HTML STYLES
+******************************************/
+
+#who_container{
+	font-family: 'Comfortaa', cursive;
+	padding: 0 0 0 50px;
+}
+
+
+
+
 
