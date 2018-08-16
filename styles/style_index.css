@@ -1,0 +1,168 @@
+/******************************************
+* 	Using hexnaw.com to check color #a11y
+* 	Using wave.webaim.org to fix color #a11y
+	and layout issues
+*	Screenify	
+******************************************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/******************************************
+				NAVIGATION
+******************************************/
+
+
+
+
+ button {
+	display: inline;
+	width: 150px;
+	float: left;
+	list-style-type: none;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.3em;
+	padding: 15px 0;
+	margin-top: 20px;
+	margin-left: -12px;
+	border-radius: 7px;
+	background-color: #fff;
+
+}
+
+ a button {
+	text-decoration: none;
+	color: #000;
+}
+ a button:hover, nav a button:focus{
+	background-color: #4d7b92;
+	color: #fff;
+}
+
+/******************************************
+				INDEX.HTML STYLES
+******************************************/
+
+#index_container{
+	font-family: 'Comfortaa', cursive;
+	padding-top: 200px;
+	width: 75%;
+}
+
+#index_header {
+	font-weight: 900;
+	font-size: 7em;
+	font-family: 'Rubik Mono One', cursive;
+	text-shadow: 2px 2px #ccc;
+}
+
+.index_call_to_action {
+	font-size: 2em;
+	font-weight: 100;
+	line-height: 1.5;
+}
+
+#l1, #l6 {color: #4d7b92; }
+#l2, #l7 {color: #6d861c;}
+#l3 {color: #ab8711;}
+#l4 {color: #b44d30;}
+#l5 {color: #BD4F6C;}
+
+/******************************************
+				INDEX.HTML MEDIA QUERIES
+******************************************/
+
+	@media only screen and (max-width: 991px) {
+    
+	
+	#index_header {
+		font-size: 6em;
+		
+	}
+	
+	.index_call_to_action {
+	font-size: 1.6em;
+	font-weight: 100;
+	line-height: 1.5;
+	}
+	
+	
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    #index_container{
+	padding-top: 50px;
+}
+	
+	#index_header {
+		font-size: 5em;
+		/* text-align: center; */
+	}
+	
+	.index_call_to_action {
+	font-size: 1.3em;
+	font-weight: 100;
+	line-height: 1.5;
+	}
+	
+	#navigation {
+		margin-top: 20px;
+	}
+	
+	#navigation button{
+		margin: 10px 10px;
+		width: 75%;
+		font-size: 1.2em;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+	
+	#index_header {
+		font-size: 3.8em;
+		text-align: center;
+	}
+	
+	.index_call_to_action {
+	font-size: 1.1em;
+	font-weight: 100;
+	line-height: 1.5;
+	}
+	
+	#navigation {
+		margin-top: 20px;
+	}
+	
+	#navigation button{
+		margin: 10px 10px;
+		width: 75%;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+    
+
+    #index_header {
+    	font-size: 3em;
+    	text-shadow: 1px 1px #ccc;
+    	
+
+    }
