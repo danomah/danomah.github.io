@@ -30,6 +30,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  button {
 	display: inline;
 	width: 150px;
+	height: 95%;
 	float: left;
 	list-style-type: none;
 	font-family: 'Comfortaa', cursive;
