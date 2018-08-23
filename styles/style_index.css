@@ -87,7 +87,8 @@ blockquote {
 	color: #000;
 }
  a button:hover, nav a button:focus{
-	
+	text-decoration: underline;
+	 text-decoration-color: #4d7b92;
 	background-color: #4d7b92;
 	color: #fff;
 }
