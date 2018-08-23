@@ -3,10 +3,8 @@ Load Screen
 *******************/
 
 $(function(){
-				$( "#fcc" ).hide().delay(1000).fadeIn( 800 );
-				$( "#codepen" ).hide().delay(1500).fadeIn( 800 );
-				$( "#linkedin" ).hide().delay(2000).fadeIn( 800 );
-				$( "#github" ).hide().delay(2500).fadeIn( 800 );
+				$( "#social_buttons" ).hide().delay(1000).fadeIn( 1300 );
+				
 			});
 
 /* *****************
