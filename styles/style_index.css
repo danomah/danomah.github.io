@@ -19,52 +19,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }
 
-
-/******************************************
-				NAVIGATION
-******************************************/
-
-
-
-
- button {
-	display: inline;
-	width: 150px;
-	height: 95%;
-	float: left;
-	list-style-type: none;
-	font-family: 'Comfortaa', cursive;
-	font-size: 1.3em;
-	padding: 15px 0;
-	margin-top: 20px;
-	margin-left: -12px;
-	border-radius: 7px;
-	background-color: #fff;
-
-}
-
- a button {
-	text-decoration: none;
-	color: #000;
-}
- a button:hover, nav a button:focus{
-	background-color: #4d7b92;
-	color: #fff;
-}
-
-
-
-
-
-
-
-
 /******************************************
 				INDEX.HTML STYLES
 ******************************************/
 
 #index_container{
 	font-family: 'Comfortaa', cursive;
+	background-color: lightyellow;
 	padding-top: 200px;
 	width: 75%;
 }
@@ -87,6 +48,58 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #l3 {color: #ab8711;}
 #l4 {color: #b44d30;}
 #l5 {color: #BD4F6C;}
+
+
+
+
+blockquote {
+    display: block;
+	line-height: 1.5;
+	margin: 30px 0 20px 0;
+	max-width: 500px;
+	
+	overflow: hidden;
+	text-overflow: hidden;
+  
+}
+
+/******************************************
+				NAVIGATION
+******************************************/
+
+
+	
+
+ button {
+	position: relative;
+	display: inline;
+	width: 150px;
+	height: 95%;
+	font-size: 1.3em;
+	padding: 15px 0;
+	text-decoration: none;
+	border-radius: 7px;
+	background-color: #fff;
+
+}
+
+ a button {
+	text-decoration: none;
+	color: #000;
+}
+ a button:hover, nav a button:focus{
+	
+	background-color: #4d7b92;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
 
 /******************************************
 				INDEX.HTML MEDIA QUERIES
@@ -171,6 +184,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     #index_header {
     	font-size: 3em;
     	text-shadow: 1px 1px #ccc;
-    	
-
     }
+
+	#social_buttons {
+		width: 100%;
+
+	}
+	
+	
