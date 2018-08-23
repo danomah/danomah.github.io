@@ -3,6 +3,7 @@
 * 	Using wave.webaim.org to fix color #a11y
 	and layout issues
 *	Screenify	
+*  	colorsafe.co
 ******************************************/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -23,9 +24,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 				INDEX.HTML STYLES
 ******************************************/
 
+	
+
+
+ 
+
+
+
 #index_container{
 	font-family: 'Comfortaa', cursive;
-	padding-top: 200px;
+
+	padding-top: 150px;
 	width: 75%;
 }
 
@@ -48,11 +57,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #l4 {color: #b44d30;}
 #l5 {color: #BD4F6C;}
 
-#testimonials {
-	
-	margin-bottom: 50px;
-}
 
+
+
+#testimonials {
+	padding-bottom: 50px;
+}
 
 blockquote {
     display: block;
@@ -64,15 +74,7 @@ blockquote {
 	text-overflow: hidden;
   
 }
-
-/******************************************
-				NAVIGATION
-******************************************/
-
-
-	
-
- button {
+button {
 	position: relative;
 	display: inline;
 	width: 150px;
@@ -82,19 +84,38 @@ blockquote {
 	text-decoration: none;
 	border-radius: 7px;
 	background-color: #fff;
+	clear: both;
 
 }
 
  a button {
-	text-decoration: none;
+	 text-decoration: underline;
+	
 	color: #000;
 }
- a button:hover, nav a button:focus{
+ a button:hover, a button:focus{
 	text-decoration: underline;
-	 text-decoration-color: #4d7b92;
+	text-decoration-color: #4d7b92;
 	background-color: #4d7b92;
 	color: #fff;
 }
+
+footer {
+	text-align: center;
+	font-family: "Comfortaa", cursive;
+	color: #fff;
+	background-color: #4d7b92;
+	padding: 20px 0;
+}
+
+footer a {
+	color: #fff;
+}
+
+/******************************************
+				NAVIGATION
+******************************************/
+
 
 
 
