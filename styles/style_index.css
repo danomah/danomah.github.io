@@ -75,6 +75,10 @@ blockquote {
 	blockquote p a {
 	color: # #4d7b92;
 	}	
+
+	#client_address {
+		color: #4d7b92;
+	}	
 	
 }
 button {
