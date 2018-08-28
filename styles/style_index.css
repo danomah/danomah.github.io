@@ -119,13 +119,33 @@ footer a {
 	color: #fff;
 }
 
-/******************************************
-				NAVIGATION
-******************************************/
+#cta {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.hideme {
+	opacity: 0;
+}
+
+#cta h2 {
+	padding-bottom: 50px;
+}
+
+#cta_button button{
+	text-decoration: none;
+	color: #fff;
+	background-color: #BD4F6C;
+}
 
 
-
-
+#cta_button button:hover, #cta_button button:focus{
+	text-decoration: underline;
+	text-decoration-color: #fff;
+	color: #BD4F6C;
+	background-color: #fff;
+}
 
 
 
