@@ -1,99 +1,125 @@
 
-/* /****************************************** */
-				/* WHO.HTML STYLES */
-/* ******************************************/ */
+/***********
+LAYOUT STYLING
+***********/
 
-/******************************************
-* 	Using hexnaw.com to check color #a11y
-* 	Using wave.webaim.org to fix color #a11y
-	and layout issues
-*	Screenify	
-******************************************/
+.wrapper {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+   
+  
+}
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+.wrapper section {
+  border: 3px solid #fff;
+  
+}
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.wrapper section p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  margin: 20px auto;
 }
 
 
-/******************************************
-				NAVIGATION
-******************************************/
-
-
-
-
- button {
-	display: inline;
-	width: 100px;
-	float: left;
-	list-style-type: none;
-	font-family: 'Comfortaa', cursive;
-	font-size: 0.9em;
-	padding: 15px 0;
-	margin-top: 20px;
-	margin-left: 20px;
-	border-radius: 7px;
-	background-color: #fff;
+#div1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
 
 }
- a {
-	 text-decoration: none;
- }
- a button {
-	color: #000;
-}
- a button:hover, nav a button:focus{
-	background-color: #4d7b92;
-	color: #fff;
+
+#div2{
+  background-color: gray;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  
 }
 
+#div3{
+  background-color:  lightblue;
+  grid-row: 2/4;
+  grid-column: 1/2;
 
-/******************************************
-				WHO.HTML STYLES
-******************************************/
-
-#index_container{
-	font-family: 'Comfortaa', cursive;
-	padding-top: 200px;
-	width: 75%;
 }
 
-#index_header {
-	font-weight: 900;
-	font-size: 1.5em;
-	font-family: 'Rubik Mono One', cursive;
-	text-shadow: 2px 2px #ccc;
-	margin-left: 20px;
+#div4{
+  background-color:  violet;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
-.index_call_to_action {
-	font-size: 2em;
-	font-weight: 100;
-	line-height: 1.5;
+#div5 {
+  background-color: orange;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
-#l1, #l6 {color: #4d7b92; }
-#l2, #l7 {color: #6d861c;}
-#l3 {color: #ab8711;}
-#l4 {color: #b44d30;}
-#l5 {color: #BD4F6C;}
+#div6 {
+  background-color: black;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
 
-	
+#div7 {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
 
-    
+/******************
+CONTENT STYLING
+******************/
+
+#logo_img {
+  display: block;
+  margin: 30px auto;
+}
 
 
+/******************
+MEDIA QUERIES
+******************/
 
-
-
-
+@media screen and (max-width: 768px) {
+  #div1, #div3, #div4, #div5, #div6, #div7 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  }
+  
+  #div1 {
+    position: relative;
+    top: 0;
+    grid-row: 1/2;
+  }
+  
+  #div2 {
+    position: relative;
+    top: 100;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    clear: both;
+  }
+  
+  #div4 {
+    position: relative;
+    top: 200;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    clear: both;
+  }
+  
+  #div3 {
+    position: relative;
+    top: 300;
+    grid-row: 4/5;
+    grid-column: 1/4;
+    clear: both;
+  }
+}/*end 768px*/
