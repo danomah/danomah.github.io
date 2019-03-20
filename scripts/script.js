@@ -13,9 +13,9 @@ Button Hover Code
 
   $(function() {
     $('#fcc').hover(function() {
-      $(this).html('Free Code Camp');
+      $(this).html('Twitter');
     }, function() {
-      $(this).html('<i class="fab fa-free-code-camp fa-2x" aria-hidden="true">');
+      $(this).html('<i class="fab fa-twitter fa-2x" aria-hidden="true">');
     });
 
     $('#codepen').hover(function() {
