@@ -29,10 +29,10 @@ Button Hover Code
       $(this).html('<i class="fab fa-linkedin fa-2x" aria-hidden="true">');
     });
 
-    $('#github').hover(function() {
-      $(this).html('Github');
+    $('#wordpress').hover(function() {
+      $(this).html('Blog');
     }, function() {
-      $(this).html('<i class="fab fa-github fa-2x" aria-hidden="true">');
+      $(this).html('<i class="fab fa-wordpress fa-2x" aria-hidden="true">');
     });
 
   });
