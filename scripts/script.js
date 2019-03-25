@@ -3,9 +3,8 @@ Load Screen
 *******************/
 
 $(function(){
-				$( "#social_buttons" ).hide().delay(1000).fadeIn( 1300 );
-				
-			});
+	$( "#social_buttons" ).hide().delay(1000).fadeIn( 1300 );
+});
 
 /* *****************
 Button Hover Code 
