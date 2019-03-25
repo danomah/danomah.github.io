@@ -101,8 +101,12 @@ CONTENT STYLING
 #logo_img {
   display: block;
   margin: 30px auto;
+  padding: 5px;
 }
 
+#logo_img:hover, #logo_img:focus {
+	outline: 5px solid orange;
+}
 
 /******************
 MEDIA QUERIES
