@@ -78,3 +78,28 @@ p {
   border-radius: 30px;
   box-shadow: -1px 3px 10px #000;
 }
+
+#visionSim {
+  background: #00f;
+  color: #fff;
+  text-shadow: 0.6px 0.6px 0.6px #000;
+}
+
+#dyslexiaSim {
+  background: orange;
+  color: #fff;
+  text-shadow: 0.6px 0.6px 0.6px #000;
+}
+
+#motorSim {
+  background: green;
+  color: #fff;
+  text-shadow: 0.6px 0.6px 0.6px #000;
+}
+
+#cognitiveSim {
+  background: red;
+  color: #fff;
+  text-shadow: 0.6px 0.6px 0.6px #000;
+}
+
