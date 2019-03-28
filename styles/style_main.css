@@ -7,6 +7,9 @@ html, body {
 	
 }
 
+.container {
+	margin-top: 50px;
+}
 
 
 footer {
@@ -28,14 +31,6 @@ footer a {
 /******************
 CONTENT STYLING
 ******************/
-
-#logo_img {
-  display: block;
-  position: relative;
-  left: 20px;
-	margin: 30px auto;
-  padding: 5px;
-}
 
 #logo_img:hover, #logo_img:focus {
 	outline: 5px solid orange;
