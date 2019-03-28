@@ -58,7 +58,8 @@ p {
 }
 
 #subheader {
-  background: #fff;
+  background: #DC143C;
+  color: #fff;
   margin-top: 100px;
   margin-bottom: 100px;
   border-radius: 30px;
