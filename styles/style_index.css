@@ -107,7 +107,7 @@ button {
 	color: #fff;
 }
 
-footer {
+#footer {
 	text-align: center;
 	font-family: "Comfortaa", cursive;
 	color: #fff;
@@ -115,7 +115,7 @@ footer {
 	padding: 20px 0;
 }
 
-footer a {
+#footer a {
 	color: #fff;
 }
 
