@@ -41,38 +41,9 @@ MEDIA QUERIES
 ******************/
 
 @media screen and (max-width: 768px) {
-  #div1, #div3, #div4, #div5, #div6, #div7 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  }
   
-  #div1 {
-    position: relative;
-    top: 0;
-    grid-row: 1/2;
-  }
-  
-  #div2 {
-    position: relative;
-    top: 100;
-    grid-row: 2/3;
-    grid-column: 1/4;
-    clear: both;
-  }
-  
-  #div4 {
-    position: relative;
-    top: 200;
-    grid-row: 3/4;
-    grid-column: 1/4;
-    clear: both;
-  }
-  
-  #div3 {
-    position: relative;
-    top: 300;
-    grid-row: 4/5;
-    grid-column: 1/4;
-    clear: both;
-  }
+	h3 {
+		margin-top: 20px;
+	}
+	
 }/*end 768px*/
