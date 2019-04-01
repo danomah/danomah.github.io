@@ -32,6 +32,10 @@ footer a {
 CONTENT STYLING
 ******************/
 
+h2 {
+margin: 15px;
+}
+
 #logo_img:hover, #logo_img:focus {
 	outline: 5px solid orange;
 }
