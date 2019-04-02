@@ -95,6 +95,10 @@ button {
 
 }
 
+button:hover, button:focus {
+	outline: 5px solid orange;
+}
+
  a button {
 	 text-decoration: underline;
 	
