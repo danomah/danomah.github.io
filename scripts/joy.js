@@ -6,7 +6,7 @@
   var shower = new Audio("audio/shower.mp3");
   var exercise = new Audio("audio/Single_Ladies.mp3");
   var headphones = new Audio("audio/BB.wav");
-  var sleep = new Audio("audio/Lucky.mp3");
+  var sleep = new Audio("https://www.dropbox.com/s/htgtku7a3zmdgjp/Lucky.mp3?dl=0");
   var isPlaying = false;
 
 //************************************************//
