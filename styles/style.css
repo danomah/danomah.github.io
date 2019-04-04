@@ -190,6 +190,12 @@ transition: position 2s;
 
 @media screen and (max-width: 360px) {
 
+  .fukol-grid > *:nth-child(2), .fukol-grid > *:nth-child(3), 
+.fukol-grid > *:nth-child(4), .fukol-grid > *:nth-child(5), 
+.fukol-grid > *:nth-child(6){
+  flex-basis: calc(100% - 1em);
+}
+  
   h1 {
     position: relative;
     left: -23%;
