@@ -40,6 +40,11 @@ margin-top: 15px;
 	outline: 5px solid orange;
 }
 
+.featureImg:hover{
+background: #000;
+	opacity: 0.5;
+}
+
 /******************
 MEDIA QUERIES
 ******************/
