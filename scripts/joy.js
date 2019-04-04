@@ -6,7 +6,7 @@
   var shower = new Audio("https://www.dropbox.com/s/icmbahfcljdaq9e/shower.mp3?dl=0");
   var exercise = new Audio("https://www.dropbox.com/s/99tv5ma2ej4atup/Single_Ladies.mp3?dl=0");
   var headphones = new Audio("https://www.dropbox.com/s/xuq6199scfa5fxt/BB.wav?dl=0");
-  var sleep = new Audio("https://www.dropbox.com/s/htgtku7a3zmdgjp/Lucky.mp3?dl=0");
+  var sleep = new Audio("https://www.dropbox.com/s/htgtku7a3zmdgjp/Lucky.mp3?raw=1");
   var isPlaying = false;
 
 //************************************************//
