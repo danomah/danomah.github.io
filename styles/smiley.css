@@ -105,43 +105,44 @@
       MEDIA QUERY 360px MAX-WIDTH
 **************************************/
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 512px) {
     	.head {
     		position: relative;
-    		width: 200px;
-    		height: 200px;
-    		left: 8%
+    		width: 300px;
+    		height: 300px;
+        left: 15%;
+        
     	}
 
      .eye-left  {
-      top: 12%;
-      left: 17%;
-      width: 5%;
-      height: 12%;
+      top: 18%;
+      left: 32%;
+      width: 7%;
+      height: 18%;
     }
 
     .eye-right
      {
-      top: 12%;
-      left: 33%;
-      width: 5%;
-      height: 12%;
+      top: 18%;
+      left: 53%;
+      width: 7%;
+      height: 18%;
       }
 
     @keyframes blink {
       0% {
-        width: 5%;
-        height: 10%;
+        width: 7%;
+        height: 18%;
       }
 
       50% {
-        width: 5%;
+        width: 7%;
         height: 1%;
       }
 
       100% {
-        width: 5%;
-        height: 10%;
+        width: 7%;
+        height: 18%;
       }
 
     }
@@ -149,12 +150,12 @@
 
     .mouth {
       top: 80px;
-      left: -43%;
+      left: -10%;
       right: 0;
-      height: 85px;
-      width: 110px;
+      height: 173px;
+      width: 206px;
       margin: 0 auto;
-      border-bottom: 20px solid #222;
+      border-bottom: 30px solid #222;
       border-radius: 100%;
     }
 
