@@ -41,7 +41,7 @@ margin-top: 15px;
 }
 
 .featureImg:hover{
-background: #000;
+fill: #000;
 	opacity: 0.5;
 }
 
