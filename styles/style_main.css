@@ -50,7 +50,7 @@ margin-top: 15px;
 	outline: 5px solid orange;
 }
 
-a {
+.featureImg {
 	background-color: #000;
 	opacity: 0;
 	-webkit-transition: opacity 0.5s ease-in-out;
@@ -58,7 +58,7 @@ a {
     	transition: opacity 0.5s ease-in-out;
 }
 
-a:hover {
+.featureImg:hover {
 	opacity: 0.3;
 }
 
