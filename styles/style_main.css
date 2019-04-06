@@ -52,7 +52,6 @@ margin-top: 15px;
 
 .featureImg {
 	background-color: #000;
-	opacity: 0;
 	-webkit-transition: opacity 0.5s ease-in-out;
     	-moz-transition: opacity 0.5s ease-in-out;
     	transition: opacity 0.5s ease-in-out;
