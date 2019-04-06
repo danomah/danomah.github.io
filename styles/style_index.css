@@ -111,6 +111,10 @@ button:hover, button:focus {
 	color: #fff;
 }
 
+#social-buttons {
+	margin-top: 20px;
+}
+
 #footer {
 	text-align: center;
 	font-family: "Comfortaa", cursive;
