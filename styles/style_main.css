@@ -50,12 +50,12 @@ margin-top: 15px;
 	outline: 5px solid orange;
 }
 
-a > .img-fluid {
+a {
 	background-color: #000;
 	opacity: 1;
 }
 
-a > .img-fluid:hover {
+a:hover {
 	opacity: 0.2;
 }
 
