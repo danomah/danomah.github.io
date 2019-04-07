@@ -76,3 +76,19 @@ MEDIA QUERIES
 	}
 	
 }/*end 768px*/
+
+@media screen and (max-width: 400px) {
+  
+	body {
+		background: yellow;		
+	}
+	
+.container-fluid {
+	margin-top: 20px;
+}	
+	
+	h3 {
+		margin-top: 20px;
+	}
+	
+}/*end 400px*/
