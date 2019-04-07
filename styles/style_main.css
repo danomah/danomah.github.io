@@ -67,10 +67,9 @@ MEDIA QUERIES
 
 @media screen and (max-width: 768px) {
   
-	body {
-	margin: 0;
-}
-	
+.container-fluid {
+	margin-top: 50px;
+}	
 	
 	h3 {
 		margin-top: 20px;
