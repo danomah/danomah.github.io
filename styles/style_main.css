@@ -56,9 +56,7 @@ margin-top: 15px;
 
 .featureImg:hover {
 	background-color: #000;
-	opacity: 0.3;
-	content: "Click to visit";
-	
+	opacity: 0.7;
 }
 
 /******************
