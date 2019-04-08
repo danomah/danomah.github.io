@@ -77,16 +77,17 @@ MEDIA QUERIES
 
 @media screen and (max-width: 400px) {
   
-	body {
-		background: yellow;		
-	}
-	
+
 .container-fluid {
 	margin-top: 20px;
 }	
 	
 	h3 {
 		margin-top: 20px;
+	}
+	
+	#footer {
+		width: 100%;
 	}
 	
 }/*end 400px*/
