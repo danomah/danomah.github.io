@@ -104,3 +104,14 @@ p {
   text-shadow: 0.6px 0.6px 0.6px #000;
 }
 
+#formExample {
+  background: skyblue;
+  color: #121212;
+  text-shadow: 0.6px 0.6px 0.6px #ccc;
+}
+
+form {
+  margin: 30px;
+  width: 50%; 
+}
+
