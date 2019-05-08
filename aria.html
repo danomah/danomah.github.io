@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ARIA in 5</title>
+      <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+      <style>
+      	.notPressed, .isPressed{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 3em;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 20px 50px;
+  cursor: pointer;
+}
+
+.notPressed:hover, .isPressed:hover {
+  outline: 10px solid orange;
+}
+
+
+
+#text2 {
+  margin-top: 20px;
+  position: relative;
+  top: 150px;
+  left: 100px;
+  padding: 30px;
+}
+
+      </style>
+  
+</head>
+
+<body>
+
+  <div>
+  <span class="notPressed" role="button" aria-describedby="text2" aria-pressed="false" id="button1" tabindex="0">Press Me</span>
+  
+</div>
+<div id="text2">When you press the button this text will turn blue</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+    <script>
+    	$('#button1').click(function(){
+  if($('#button1').attr('class', 'notPressed')){
+    $('#button1').attr('class', 'isPressed');
+    $('#text2').css('color', 'blue');
+  }
+});
+    	
+    </script>
+</body>
+
+</html>
