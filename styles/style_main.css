@@ -73,6 +73,11 @@ MEDIA QUERIES
 		margin-top: 20px;
 	}
 	
+	#joy_link {
+	order: 1;
+	}
+	
+	
 }/*end 768px*/
 
 @media screen and (max-width: 400px) {
