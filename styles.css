@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Proza+Libre:wght@500&display=swap');
+
+
+
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.jumbotron {
+  background-color: #ffc75f;
+  border-bottom: 5px solid #f9f871;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Proza Libre', sans-serif;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 80px;
+}
+
+h2 {
+  border-bottom: 2.5px solid #ff5e78;
+}
+
+h3 {
+  border-bottom: 1.25px solid #845ec2;
+}
+
+h4 {
+  border-bottom: 0.75px solid #f9f871;
+}
+
+/* Text formatted for screen reader support */
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.fa {
+  color: #101010;
+}
+
+.fa:hover, .fa:focus {
+  color: #845ec2;
+}
+
+p, li, td, th {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+th {
+  background-color: #845ec2;
+  color: #fff;
+}
+
+.productDesignImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-9, .col-sm-8, .col-sm-10, .col-sm-12 {
+  padding-bottom: 75px;
+}
+
+/****************** IMAGE ZOOM HACK ********************
+input[type=checkbox] {
+  display: none;
+}
+
+ img {
+
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+  display: block;
+}
+
+/*******************************************************/
+
+
+/* FOOTER */
+footer {
+  background-color: #101010;
+  color: #fff;
+  padding: 25px;
+}
+
+.footer-icon-col {
+  position: relative;
+  float: right;
+}
+
+.footer-icon {
+  color: #fff;
+}
+
+
+.footer-icon:hover {
+  color: #845ec2;
+}
